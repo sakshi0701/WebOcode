@@ -2,16 +2,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid blue;
+    padding-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .tagline {
     padding: 70px;
-    color: rgb(66, 65, 65);
+    color: #ff2ec0;
     font-style: italic;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 @media screen and (max-width: 860px) {
@@ -36,28 +38,8 @@
     }
   }
 
-.main span {
-    font-size: 30px;
-    font-style: italic;
-    color: rgb(66, 65, 65);
-    align-self: flex-end;
-}
-
-@media screen and (max-width: 860px) {
-    .main span{
-        font-size: 20px;
-    }
-  }
-
-  @media screen and (max-width: 380px) {
-    .main span{
-        font-size: 10px;
-    }
-  }
-
 .bgImg img {
     z-index: -1;
-    border-radius: 80px 0px 0 80px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -82,4 +64,81 @@
     .bgImg img{
       height: 100px;
     }
+  }
+
+  .main .btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+  }
+
+  .login-btn {
+    width: 150px;
+    height: 48px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    transform: rotate(-30deg) skewX(25deg) translate(0,0);
+    background: #ff2ec0;
+    color: #fff;
+    transition: all 0.5s;
+    position: relative;
+  }
+
+  @media screen and (max-width: 475px) {
+    .login-btn {
+      height: 40px;
+    }
+  }
+
+  @media screen and (max-width: 280px) {
+    .login-btn {
+      height: 25px;
+      width: 100px;
+    }
+  }
+
+  .login-btn::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 10px;
+    height: 100%;
+    background: #7c145d;
+    transform: rotate(0deg) skewY(-45deg);
+  }
+
+  .login-btn::after {
+    content: '';
+    position: absolute;
+    top: 47px;
+    left: -4px;
+    width: 150px;
+    height: 11px;
+    background: #961970;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+
+  @media screen and (max-width: 475px) {
+    .login-btn::after {
+      top: 40px;
+      left: -4px;
+    }
+  }
+
+  @media screen and (max-width: 475px) {
+    .login-btn::after {
+      top: 25px;
+      left: -5px;
+      width: 100px;;
+    }
+  }
+
+  .login-btn:hover {
+    transform: rotate(-30deg) skewX(25deg) translate(20px, -20px);
   }

@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 20px;
+    margin-top: 10px;
+    background: rgb(10, 10, 10);
 }
 
 .main-text h1 {
@@ -65,7 +66,7 @@
 .offers h3 {
     text-align: center;
     color:rgb(58, 58, 58);
-    font-size: 2em;
+    font-size: 1.5em;
     letter-spacing: 0.7rem;
     animation: anim 2.1s linear infinite;
     animation-delay: 1s;
