@@ -1,11 +1,13 @@
 .footer-main {
     width: 100%;
-    height: 120px;
+    height: 70px;
+    transform: translate(-0%, -50%);
     border-top: 1px solid grey;
     display: flex;
     justify-content: center;
     cursor: pointer;
     flex-wrap: wrap;
+    margin-top: 70px;
 }
 
 .footer-icon {

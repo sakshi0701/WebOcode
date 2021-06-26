@@ -9,7 +9,6 @@
 
 .gamebox {
     display: flex;
-    background: #070707;
     margin: 10px;
     justify-content: center;
     align-items: center;
@@ -36,23 +35,13 @@
     }
   }
 
-.games #one {
-    /* height: 500px; */
+.games {
     width: 90%;
-    background: linear-gradient(to right, #070707 50%, orange 50%);
 }
 
-.games #two {
-    /* height: 500px; */
-    width: 90%;
-    background: linear-gradient(to right, #00c3ff 50%, #070707 50%);
-}
-
-.games #three {
-    /* height: 500px; */
-    width: 90%;
-    background: linear-gradient(to right, #070707 50%, #f10286 50%);
-}
+.games #one { background: linear-gradient(to right, #070707 50%, orange 50%); }
+.games #two { background: linear-gradient(to right, #00c3ff 50%, #070707 50%); }
+.games #three { background: linear-gradient(to right, #070707 50%, #f10286 50%); }
 
 .game-name {
     font-weight: 600;

@@ -8,7 +8,7 @@
 }
 
 .main::before{
-  background: url('./control2.jpg') no-repeat center center/cover;
+  background: url('./control.jpg') no-repeat center center/cover;
   content: "";
   position: fixed;
   top: 0;
@@ -21,7 +21,7 @@
 
 .tagline {
     width: 100%;
-    color: #ff2ec0;
+    color: #ff2ec0dc;
     font-style: italic;
     display: flex;
     justify-content: center;
@@ -29,12 +29,6 @@
     flex-direction: column;
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
-
-@media screen and (max-width: 860px) {
-    .tagline{
-        /* padding-left: 65px; */
-    }
-  }
 
 .main h3 {
     font-size: 50px;
@@ -57,35 +51,20 @@
   font-style: none;
   font-size: 2rem;
   font-weight: 400;
+  padding: 0 25px 25px 25px;
 }
-
-.bgImg img {
-    z-index: -1;
-}
-
-@media screen and (max-width: 1000px) {
-    .bgImg img{
-      height: 250px;
-    }
-  }
 
 @media screen and (max-width: 860px) {
-    .bgImg img{
-      height: 200px;
-    }
+  .sub-tagline {
+      font-size: 1rem;
   }
+}
 
-  @media screen and (max-width: 530px) {
-    .bgImg img{
-      height: 150px;
-    }
+@media screen and (max-width: 380px) {
+  .sub-tagline {
+      font-size: 1 rem;
   }
-
-  @media screen and (max-width: 380px) {
-    .bgImg img{
-      height: 100px;
-    }
-  }
+}
 
   .main .btn {
     margin-top: 30px;
@@ -151,7 +130,7 @@
     }
   }
 
-  @media screen and (max-width: 475px) {
+  @media screen and (max-width: 280px) {
     .login-btn::after {
       top: 25px;
       left: -5px;
