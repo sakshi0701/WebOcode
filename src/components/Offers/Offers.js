@@ -3,7 +3,7 @@ import './offers.css';
 
 const Offers = () => {
     return (
-        <div className="offers">
+        <div className="offers" id="offers">
             <div className="main-text">
                 <h1>
                     <span>The BEST</span>

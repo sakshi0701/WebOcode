@@ -10,7 +10,7 @@
 .main::before{
   background: url('./control2.jpg') no-repeat center center/cover;
   content: "";
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 0;
   height: 100%;
@@ -21,7 +21,6 @@
 
 .tagline {
     width: 100%;
-    padding: 70px;
     color: #ff2ec0;
     font-style: italic;
     display: flex;
@@ -52,6 +51,13 @@
         font-size: 15px;
     }
   }
+
+.sub-tagline {
+  color: rgba(0, 204, 255, 0.568);
+  font-style: none;
+  font-size: 2rem;
+  font-weight: 400;
+}
 
 .bgImg img {
     z-index: -1;

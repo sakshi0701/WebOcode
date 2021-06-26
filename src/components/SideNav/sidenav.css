@@ -20,15 +20,11 @@
     font-size: 100px;
 }
 
-#home { background: orange; }
-#services { background: pink; }
-#gallery { background: green; }
-
 .sidenav .sidebar {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    background: #414141;
+    background: #2b2b2b;
 }
 
 .sidenav .nav-item {
@@ -51,7 +47,7 @@
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    background: #414141;
+    background: #2b2b2b;
     transition: all 0.3s;
     margin-left: -38px;
     padding-left: 0 20px;
@@ -59,7 +55,7 @@
 
 .sidenav .nav-link .title {
     position: absolute;
-    background: #414141;
+    background: #2b2b2b;
     height: 100%;
     padding-right: 5px;
     padding-left: 20px;

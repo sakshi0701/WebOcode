@@ -4,7 +4,7 @@ import './footer.css'
 
 const Footer = () => {
     return (
-        <div className="footer-main">
+        <div className="footer-main" id="contact">
             <div className="footer-icon">
                 <svg height="80" width="80">
                     <circle cx="27" cy="40" r="25" stroke="white" strokeWidth="2" fill="none"></circle>

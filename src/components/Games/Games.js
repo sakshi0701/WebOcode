@@ -6,7 +6,7 @@ import './games.css';
 
 const Games = () => {
     return (
-        <div className="games">
+        <div className="games" id="games">
             <div className="gamebox" id="one">
                 <div className="game-img">
                     <img src={CSGO} alt="Counter Strike" />
