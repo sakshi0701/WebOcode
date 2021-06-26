@@ -2,7 +2,7 @@
 
 This is a frontend project in React which is an esport website. This website was made in the WebOcode conducted by NSUT, Delhi
 
-[Visit Website](https: "Welcome to Game_Arena")
+[Visit Website](https://game--arena.herokuapp.com/ "Welcome to Game_Arena")
 
 ## To run the application:
 
