@@ -1,0 +1,72 @@
+.games {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.gamebox {
+    display: flex;
+    background: #070707;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-img img {
+    height: 200px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }    
+}
+
+@media screen and (max-width: 380px) {
+    .game-img img {
+      height: 100px;
+    }
+  }
+
+.games #one {
+    /* height: 500px; */
+    width: 90%;
+    background: linear-gradient(to right, #070707 50%, orange 50%);
+}
+
+.games #two {
+    /* height: 500px; */
+    width: 90%;
+    background: linear-gradient(to right, #00c3ff 50%, #070707 50%);
+}
+
+.games #three {
+    /* height: 500px; */
+    width: 90%;
+    background: linear-gradient(to right, #070707 50%, #f10286 50%);
+}
+
+.game-name {
+    font-weight: 600;
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.game-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}

@@ -1,0 +1,39 @@
+.startbtn {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    height: 50px;
+    font-size: 1.2rem;
+    background: #00c3ff;
+    border: none;
+    padding: 30px;
+    outline: 2px solid #00c3ff;
+    outline-offset: 4px;
+    border: 2px solid #00c3ff;
+    cursor: pointer;
+    transition: all 250ms;
+    font-weight: 700;
+}
+
+.start-btn:hover {
+    outline-offset: -8px;
+    color: #fff;
+    background: none;
+}
+
+.start-btn:nth-child(2) {
+    outline-offset: -4px;
+}
+
+.start-btn:nth-child(2):hover {
+    outline-offset: 4px;
+}
