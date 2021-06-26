@@ -12,7 +12,7 @@ const Offers = () => {
                 </h1>
             </div>
             <div className="offer-content">
-                Get a chance to win an amazing gaming console and many more gift hampers this summer fest!
+                Get a chance to win an amazing gaming console and many more gift hampers this summer league!
                 <h3>COMING SOON!</h3>
             </div>
         </div>

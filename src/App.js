@@ -12,17 +12,15 @@ import './App.css';
 
 function App() {
   return (
-    <>
-      <div className="App">
-        <Navbar />
-        <SideNav />
-        <Main />
-        <Offers />
-        <Games />
-        <StartBtn />
-        <Footer />
-      </div>
-    </>
+    <div className="App">
+      <Navbar />
+      <SideNav />
+      <Main />
+      <Offers />
+      <Games />
+      <StartBtn />
+      <Footer />
+    </div>
   );
 }
 
