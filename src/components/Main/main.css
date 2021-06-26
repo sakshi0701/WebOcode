@@ -4,14 +4,29 @@
     align-items: center;
     padding-bottom: 50px;
     margin-bottom: 40px;
+    height: 440px;
+}
+
+.main::before{
+  background: url('./control2.jpg') no-repeat center center/cover;
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
 }
 
 .tagline {
+    width: 100%;
     padding: 70px;
     color: #ff2ec0;
     font-style: italic;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
@@ -71,7 +86,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: black;
   }
 
   .login-btn {

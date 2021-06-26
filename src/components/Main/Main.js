@@ -11,9 +11,9 @@ const Main = () => {
                     <button className="login-btn">Login</button>
                 </div>
             </div>
-            <div className="bgImg">
+            {/* <div className="bgImg">
                 <img src={Image} alt="" />
-            </div>
+            </div> */}
         </div>
     )
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import SideNav from './components/SideNav/SideNav';
+import Navbar from './components/Navbar/Navbar';
 import Main from './components/Main/Main';
 import Offers from './components/Offers/Offers';
 import Games from './components/Games/Games';
@@ -14,6 +15,8 @@ function App() {
     <>
       <SideNav />
       <div className="App">
+        <Navbar />
+        {/* <SideNav /> */}
         <Main />
         <Offers />
         <Games />
