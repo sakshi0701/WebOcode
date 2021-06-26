@@ -13,10 +13,9 @@ import './App.css';
 function App() {
   return (
     <>
-      <SideNav />
       <div className="App">
         <Navbar />
-        {/* <SideNav /> */}
+        <SideNav />
         <Main />
         <Offers />
         <Games />
