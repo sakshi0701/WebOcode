@@ -1,17 +1,22 @@
 import React from 'react';
 
 import SideNav from './components/SideNav/SideNav';
+import Main from './components/Main/Main';
 import Footer from './components/footer/Footer';
 
 import './App.css';
+import Offers from './components/Offers/Offers';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <SideNav />
-      <h1>Hello world</h1>
-      <Footer />
-    </div>
+      <div className="App">
+        <Main />
+        <Offers />
+        <Footer />
+      </div>
+    </>
   );
 }
 

@@ -7,9 +7,9 @@ import './sidenav.css';
 const SideNav = () => {
     return (
         <div className="sidenav">
-            <section id="home"><h2>Home</h2></section>
+            {/* <section id="home"><h2>Home</h2></section>
             <section id="services"><h2>Services</h2></section>
-            <section id="gallery"><h2>Gallery</h2></section>
+            <section id="gallery"><h2>Gallery</h2></section> */}
             <ul className="sidebar">
                 <li className="nav-item">
                     <a href="#home" className="nav-link">

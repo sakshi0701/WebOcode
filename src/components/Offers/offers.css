@@ -1,0 +1,77 @@
+.offers {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.main-text h1 {
+    margin-left: 70px;
+    width: 400px;
+    height: 200px;
+    font-size: 50px;
+    position: relative;
+    white-space: nowrap;
+    -webkit-text-stroke: 1px #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    color: transparent;
+}
+
+@media screen and (max-width: 483px) {
+    .main-text {
+        height: 0;
+        width: 0%;
+    }
+  }
+
+@media screen and (max-width: 483px) {
+    .main-text h1 {
+        font-size: 0;
+    }
+  }
+
+.main-text h1 span {
+    position: absolute;
+}
+
+.main-text span:nth-child(odd) {
+    transform: skew(50deg, -20deg) scaleY(0.75);
+}
+
+.main-text span:nth-child(even) {
+    transform: skew(-5deg, -20deg);
+}
+
+.main-text span:nth-child(2) {
+    top: 74px;
+    left: 40px;
+}
+
+.main-text span:nth-child(3) {
+    top: 130px;
+    left: 90px;
+}
+
+.offer-content {
+    width: 50%;
+    padding: 10px;
+    color: yellowgreen;
+    font-size: 2rem;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.offers h3 {
+    text-align: center;
+    color:rgb(58, 58, 58);
+    font-size: 2em;
+    letter-spacing: 0.7rem;
+    animation: anim 2.1s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes anim {
+    0%{color: #141414; text-shadow: none;}
+    100%{color: #f3ff08; text-shadow: 0 0 9px #ffff17;}
+}
